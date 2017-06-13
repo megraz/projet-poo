@@ -37,6 +37,7 @@ and open the template in the editor.
             <input type="number" name="age"/>
             <label>Région : </label>
             <input type="text" name="region"/>
+            <button>Envoyer</button>
         </form>
         
     </body>
