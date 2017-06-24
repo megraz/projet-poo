@@ -15,6 +15,8 @@ and open the template in the editor.
         include_once './Carre.php';
         include_once './Point.php';
         include_once './Cercle.php';
+        include_once './Tamagotchi.php';
+       
         
         
         $carreRouge = new Carre(50, 'red');
@@ -32,6 +34,15 @@ and open the template in the editor.
         
         $cercle = new Cercle(50, $pointB);
         echo $cercle->afficher();
+        
+        
+        //pour utiliser cette classe on en fait une instance dc new
+        //cf pg Tamagotchi
+        $tama = new Tamagotchi();
+        $tama->nourrir();
+        $tama->showEtat();
+        
+        
         ?>
      
     </body>
